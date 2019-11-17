@@ -1,0 +1,182 @@
+17:29:22.897 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 16592 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+17:29:22.906 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+17:29:22.907 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+17:29:24.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$eb528d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+17:29:24.777 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+17:29:25.943 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+17:29:25.959 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+17:29:25.960 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+17:29:25.963 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+17:29:25.964 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+17:29:25.964 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+17:29:25.965 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+17:29:27.051 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+17:29:27.405 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+17:29:27.405 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4348 ms 
+17:29:28.135 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+17:29:28.252 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+17:29:28.584 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+17:29:28.627 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+17:29:28.672 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+17:29:29.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '' 
+17:29:29.014 [main] INFO  com.kanban.KanbanServiceApplication - Started KanbanServiceApplication in 7.037 seconds (JVM running for 8.807) 
+17:30:18.701 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+17:30:18.703 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+17:30:18.720 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms 
+17:30:23.437 [http-nio-8088-exec-2] INFO  c.kanban.contoller.KanbanController - Setting Kanban service state info 
+17:35:29.476 [http-nio-8088-exec-4] INFO  c.kanban.contoller.KanbanController - Setting Kanban service state info 
+17:35:48.833 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 9224 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+17:35:48.837 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+17:35:48.838 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+17:35:50.557 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8b708f94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+17:35:50.627 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+17:35:51.291 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+17:35:51.304 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+17:35:51.305 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+17:35:51.307 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+17:35:51.308 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+17:35:51.308 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+17:35:51.309 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+17:35:52.448 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+17:35:52.817 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+17:35:52.818 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3877 ms 
+17:35:53.560 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+17:35:53.691 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+17:35:53.941 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+17:35:53.993 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+17:35:54.051 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+17:35:54.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '' 
+17:35:54.477 [main] INFO  com.kanban.KanbanServiceApplication - Started KanbanServiceApplication in 6.331 seconds (JVM running for 7.729) 
+17:36:19.439 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 3840 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+17:36:19.445 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+17:36:19.446 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+17:36:21.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$dd951b59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+17:36:21.350 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+17:36:22.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+17:36:22.184 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+17:36:22.185 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+17:36:22.188 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+17:36:22.189 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+17:36:22.190 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+17:36:22.191 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+17:36:23.298 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+17:36:23.598 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+17:36:23.599 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4069 ms 
+17:36:24.260 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+17:36:24.368 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+17:36:24.587 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+17:36:24.637 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+17:36:24.694 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+17:36:25.035 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '' 
+17:36:25.039 [main] INFO  com.kanban.KanbanServiceApplication - Started KanbanServiceApplication in 6.879 seconds (JVM running for 8.274) 
+17:38:10.194 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 10148 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+17:38:10.198 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+17:38:10.199 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+17:38:12.135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$46fff58c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+17:38:12.201 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+17:38:13.046 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+17:38:13.078 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+17:38:13.079 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+17:38:13.082 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+17:38:13.083 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+17:38:13.083 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+17:38:13.083 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+17:38:14.187 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+17:38:14.481 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+17:38:14.482 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4188 ms 
+17:38:15.227 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+17:38:15.360 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+17:38:15.702 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+17:38:15.772 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+17:38:15.818 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+17:38:16.154 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '' 
+17:38:16.158 [main] INFO  com.kanban.KanbanServiceApplication - Started KanbanServiceApplication in 6.67 seconds (JVM running for 8.173) 
+17:38:16.381 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+17:38:16.382 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+17:38:16.393 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms 
+17:38:16.430 [http-nio-8088-exec-1] INFO  c.kanban.contoller.KanbanController - Setting Kanban service state info 
+18:58:53.241 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.test.demo.KanbanServiceApplicationTests], using SpringBootContextLoader 
+18:58:53.262 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.test.demo.KanbanServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. 
+18:58:53.265 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.test.demo.KanbanServiceApplicationTests]: KanbanServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+18:58:53.513 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.test.demo.KanbanServiceApplicationTests], using SpringBootContextLoader 
+18:58:53.515 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.test.demo.KanbanServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. 
+18:58:53.516 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.test.demo.KanbanServiceApplicationTests]: KanbanServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+18:58:53.549 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.test.demo.KanbanServiceApplicationTests], using SpringBootContextLoader 
+18:58:53.551 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.test.demo.KanbanServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. 
+18:58:53.554 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.test.demo.KanbanServiceApplicationTests]: KanbanServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+19:07:14.666 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 1548 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+19:07:14.670 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+19:07:14.671 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+19:07:16.841 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$57c69f6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+19:07:16.941 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+19:07:17.966 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+19:07:17.989 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+19:07:17.990 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+19:07:17.994 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+19:07:17.995 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+19:07:17.995 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+19:07:17.996 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+19:07:19.109 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+19:07:19.375 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+19:07:19.376 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4618 ms 
+19:07:19.476 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kanban.service.TaskRepository<?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} 
+19:07:19.483 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+19:07:19.497 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+19:07:19.614 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.kanban.service.TaskService required a bean of type 'com.kanban.service.TaskRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.kanban.service.TaskRepository' in your configuration.
+ 
+19:14:06.754 [main] INFO  com.kanban.KanbanServiceApplication - Starting KanbanServiceApplication on L-156150283 with PID 6912 (D:\Work\kanban_service\target\classes started by JSINHA22 in D:\Work\kanban_service) 
+19:14:06.758 [main] DEBUG com.kanban.KanbanServiceApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE 
+19:14:06.759 [main] INFO  com.kanban.KanbanServiceApplication - No active profile set, falling back to default profiles: default 
+19:14:09.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6173876d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+19:14:09.132 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0] 
+19:14:09.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http) 
+19:14:09.835 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+19:14:09.836 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27] 
+19:14:09.837 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23] 
+19:14:09.838 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3]. 
+19:14:09.838 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+19:14:09.839 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+19:14:10.931 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017] 
+19:14:11.233 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+19:14:11.234 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4387 ms 
+19:14:11.338 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kanban.service.TaskRepository<?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} 
+19:14:11.344 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+19:14:11.359 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+19:14:11.487 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.kanban.service.TaskService required a bean of type 'com.kanban.service.TaskRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.kanban.service.TaskRepository' in your configuration.
+ 
