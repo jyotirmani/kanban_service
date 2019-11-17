@@ -13,7 +13,7 @@ Swagger-UI
 
 
 Run
-git clone https://github.com/ctinute/my-kanban-rest-service.git
+git clone  https://github.com/jyotirmani/kanban_service.git
 cd Kanban_serve
 mvnw spring-boot:run or ./mvnw spring-boot:run
 
@@ -34,7 +34,7 @@ http://localhost:8088/swagger-ui.html#/user-resource
 
 
 -----
-Docker execution steps:
+Docker execution steps
 Build the docker image
 docker build -t Kanban-state-springboot-docker.jar .
 
@@ -44,12 +44,10 @@ docker image ls
 Run the build Image
 docker run -p 9090:8088 Kanban-state-springboot-docker.jar
 ----
+Using Docker Hub
 docker tag Kanban-state-springboot-docker.jar test/Kanban-state-springboot-docker.jar
 
 docker push test/Kanban-state-springboot-docker.jar
 
 docker pull test/Kanban-state-springboot-docker.jar
 docker run -p 9090:8088 Kanban-state-springboot-docker.jar
-===
-
-
