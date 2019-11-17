@@ -1,8 +1,9 @@
-Project Kanban_serve - RESTfull API
-REST API for Kanban_serves project management website powered by Spring Boot
+Project Kanban_serve
+RESTfull API for Kanban_serves project management
 
 Requirements
 JDK 8
+Maven
 Postman
 Docker
 Springframework boot
@@ -10,12 +11,13 @@ Spring web
 Swagger2
 Swagger-UI
 
+
 Run
 git clone https://github.com/ctinute/my-kanban-rest-service.git
 cd Kanban_serve
 mvnw spring-boot:run or ./mvnw spring-boot:run
 
-or Run using any tools like STS, eclipse
+or Run using any tools like STS, eclipse using maven install, build and Run the Application class.
 
 
 APIs
@@ -32,6 +34,7 @@ http://localhost:8088/swagger-ui.html#/user-resource
 
 
 -----
+Docker execution steps:
 Build the docker image
 docker build -t Kanban-state-springboot-docker.jar .
 
